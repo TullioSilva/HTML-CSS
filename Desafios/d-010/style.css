@@ -119,6 +119,7 @@ aside > ul{
     list-style-type: '\2714';
     padding-left: 10px ;
     columns: 2;
+    width: 90%;
 }
 
 aside >h3{
