@@ -117,7 +117,7 @@ aside {
 aside > ul{
     list-style-position: inside;
     list-style-type: '\2714';
-    padding-left: 10px ;
+    padding-left: 30px ;
     columns: 2;
     width: 90%;
 }
