@@ -57,7 +57,6 @@ section.normal{
 section.imagem{
     background-color: var(--cor3);
     color:white;
-    
 }
 
 section.imagem > p{
@@ -65,9 +64,16 @@ section.imagem > p{
     display: inline-block;
     border-radius:8px;
     padding: 5px;
-
 }
 
+section.imagem#img01{
+
+
+}
+section.imagem#img02{
+    background: url(imagens/backgroun01.jpg) center center;
+    
+}
 footer{
     background-color: var(--cor4);
     text-align: center;
