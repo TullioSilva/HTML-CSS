@@ -9,7 +9,24 @@ Desktop: até 1200px
 Telas grandes: 1200px +
 */
 @media PRINT {
-    
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+        background-image: url(../images/back-print.jpg); /* desnecessario */
+    }
+    main{
+        width: 90vw;
+        border: 2px solid black;
+    }
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+    main::after{
+        content: 'Essa impressão ta show de bola slc';
+        text-decoration: overline;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
