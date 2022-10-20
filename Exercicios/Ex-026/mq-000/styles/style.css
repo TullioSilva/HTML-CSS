@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* Versão Mobile First */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html, body{ 
+    height: 100vh;
+    background-color: #141615
+}
+
+header{
+    background: #141615 url(../images/firstbg.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 200px;
+=
+}
+header h1{
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.555);
+    text-align: center;
+    font-size: max(40px, 20%);
+}
+
+/* Voltar para correção futuramente */
+
+aside{
+    background-color: #141615;
+    padding: 90px;
+    color: white;
+}
+aside p{
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    line-height: 1.9em;
+}
+main{
+    background-color: #141615;
+    max-width: 860px;
+    margin: auto;
+}
+.art{
+    background: black url(../images/secondbg.png) center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+    padding: 200px;
+}
